@@ -1,0 +1,35 @@
+Engine type	liquid-cooled, 4-stroke, DOHC, forward-inclined parallel 4-cylinder, 4-valves
+Displacement	998cc
+Bore x stroke	79.0 mm x 50.9 mm
+Compression ratio	13.0 : 1
+Maximum power	147.1 kW (200.0PS) @ 13,500 rpm
+Maximum torque	112.4 Nm (11.5 kg-m) @ 11,500 rpm
+Lubrication system	Wet sump
+Clutch type	Wet, Multiple Disc
+Fuel system	Fuel Injection
+Ignition system	TCI (digital)
+Starter system	Electric
+Transmission system	Constant Mesh, 6-speed
+Final transmission	Chain
+Chassis
+Frame	Aluminium Deltabox
+Front suspension system	Telescopic forks, Ø 43 mm
+Front travel	120 mm
+Caster angle	24º
+Trail	102 mm
+Rear suspension system	Swingarm, (link suspension)
+Rear travel	120 mm
+Front brake	Hydraulic dual disc, Ø 320 mm
+Rear brake	Hydraulic single disc, Ø 220 mm
+Front tyre	120/70 ZR17M/C (58W)
+Rear tyre	190/55 ZR17M/C (75W)
+Dimensions
+Overall length	2,055 mm
+Overall width	690 mm
+Overall height	1,150 mm
+Seat height	855 mm
+Wheel base	1,405 mm
+Minimum ground clearance	130 mm
+Wet weight (including full oil and fuel tank)	199 kg
+Fuel tank capacity	17 litres
+Oil tank capacity	3.9 litres

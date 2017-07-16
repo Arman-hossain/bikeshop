@@ -1,0 +1,36 @@
+Engine type	liquid-cooled, 4-stroke, DOHC, forward-inclined parallel 4-cylinder, 4-valves
+Displacement	1,298cc
+Bore x stroke	79.0 mm x 66.2 mm
+Compression ratio	10.8 : 1
+Maximum power	107.5 kW (146.2PS) @ 8,000 rpm
+Maximum torque	138.0 Nm (14.1 kg-m) @ 7,000 rpm
+Lubrication system	Wet sump
+Clutch type	Wet, multiple-disc coil spring
+Fuel system	Fuel Injection
+Ignition system	TCI
+Starter system	Electric
+Transmission system	Constant Mesh, 6-speed
+Fuel consumption	6.2 l/100km
+CO2 emission	140 g/km
+Chassis
+Frame	Aluminium, Diamond Shaped
+Front suspension system	Telescopic forks, Ø 48 mm
+Front travel	135 mm
+Caster angle	26º
+Trail	109 mm
+Rear suspension system	Swingarm, (Link type suspension)
+Rear travel	125 mm
+Front brake	Hydraulic dual disc, Ø 320 mm
+Rear brake	Hydraulic single disc, Ø 282 mm
+Front tyre	120/70 ZR17M/C (58W)
+Rear tyre	180/55 ZR17M/C (73W)
+Dimensions
+Overall length	2,230 mm
+Overall width	750 mm
+Overall height	1,325/1,455 mm
+Seat height	805/825 mm
+Wheel base	1,545 mm
+Minimum ground clearance	130 mm
+Wet weight (including full oil and fuel tank)	289 kg
+Fuel tank capacity	25 litres
+Oil tank capacity	4.9 litres

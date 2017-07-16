@@ -1,0 +1,11 @@
+ Specifications Summary :
+Engine Displacement (cc)	149 . cc, Liquid-cooled, 4-stroke, SOHC, 4-valve
+Maximum Power (bhp)	17 @ 8,500rpm
+Maximum Torque (Nm)	15 @ 7,500rpm
+Top speed (kmph)	145
+ 
+ Details :
+Acceleration 0-60 km	3
+Gear Shift Pattern	-
+Start System	Electric Start
+Tank Capacity (Reserve)	12 (-) L

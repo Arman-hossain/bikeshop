@@ -1,0 +1,35 @@
+Engine type	liquid-cooled, 4-stroke, DOHC, forward-inclined parallel 4-cylinder, 4-valves
+Displacement	599cc
+Bore x stroke	67.0 mm x 42.5 mm
+Compression ratio	13.1 : 1
+Maximum power	91.0 kW (123.7PS) @ 14,500 rpm
+Maximum torque	65.7 Nm (6.7 kg-m) @ 10,500 rpm
+Lubrication system	Wet sump
+Clutch type	Wet, multiple-disc coil spring
+Fuel system	Electronic Fuel Injection
+Ignition system	TCI (digital)
+Starter system	Electric
+Transmission system	Constant Mesh, 6-speed
+Final transmission	Chain
+Chassis
+Frame	Aluminium Deltabox
+Front suspension system	Upside-down telescopic fork, Ø 41 mm
+Front travel	115 mm
+Caster angle	24º
+Trail	97 mm
+Rear suspension system	Swingarm, (link suspension), Monoshock
+Rear travel	120 mm
+Front brake	Hydraulic dual disc, Ø 310 mm
+Rear brake	Hydraulic single disc, Ø 220 mm
+Front tyre	120/70 ZR17M/C (58W)
+Rear tyre	180/55 ZR17M/C (73W)
+Dimensions
+Overall length	2,040 mm
+Overall width	705 mm
+Overall height	1,095 mm
+Seat height	850 mm
+Wheel base	1,375 mm
+Minimum ground clearance	130 mm
+Wet weight (including full oil and fuel tank)	189 kg
+Fuel tank capacity	17 litres
+Oil tank capacity	3.4 litres

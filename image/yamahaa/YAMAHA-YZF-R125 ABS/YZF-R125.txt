@@ -1,0 +1,36 @@
+Engine type	Single cylinder, liquid-cooled, 4-stroke, SOHC, 4-valves
+Displacement	124.7cc
+Bore x stroke	52.0 mm x 58.6 mm
+Compression ratio	11.2 : 1
+Maximum power	11.0 kW (15.0PS) @ 9,000 rpm
+Limited power version	kW (PS) @ rpm
+Maximum torque	12.4 Nm (1.25 kg-m) @ 8,000 rpm
+Lubrication system	Wet sump
+Clutch type	Wet, multiple-disc coil spring
+Fuel system	Electronic Fuel Injection
+Ignition system	TCI (digital)
+Starter system	Electric
+Transmission system	Constant Mesh, 6-speed
+Final transmission	Chain
+Chassis
+Frame	Steel Deltabox
+Front suspension system	Upside-down telescopic fork, Ø 41 mm
+Front travel	130 mm
+Caster angle	25º
+Trail	89 mm
+Rear suspension system	Swingarm, (Link type suspension)
+Rear travel	114 mm
+Front brake	Hydraulic single disc, Ø 292 mm
+Rear brake	Hydraulic single disc, Ø 230 mm
+Front tyre	100/80-17 M/C
+Rear tyre	130/70-17 M/C
+Dimensions
+Overall length	1,955 mm
+Overall width	680 mm
+Overall height	1,065 mm
+Seat height	825 mm
+Wheel base	1,355 mm
+Minimum ground clearance	155 mm
+Wet weight (including full oil and fuel tank)	142 kg
+Fuel tank capacity	11.5 litres
+Oil tank capacity	1.15 litres

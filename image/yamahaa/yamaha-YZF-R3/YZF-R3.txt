@@ -1,0 +1,35 @@
+Engine type	2-cylinder, liquid-cooled, 4-stroke, DOHC, 4-valves
+Displacement	321cc
+Bore x stroke	68.0 mm x 44.1 mm
+Compression ratio	11.2 : 1
+Maximum power	30.9 kW (42.0PS) @ 10,750 rpm
+Maximum torque	29.6 Nm (3.0 kg-m) @ 9,000 rpm
+Lubrication system	Wet sump
+Clutch type	Wet, Multiple Disc
+Fuel system	Fuel Injection
+Ignition system	TCI
+Starter system	Electric
+Transmission system	Constant Mesh, 6-speed
+Final transmission	Chain
+Chassis
+Frame	Diamond
+Front suspension system	Telescopic forks
+Front travel	130 mm
+Caster angle	25º
+Trail	95 mm
+Rear suspension system	Swingarm
+Rear travel	125 mm
+Front brake	Hydraulic single disc, Ø 298 mm
+Rear brake	Hydraulic single disc, Ø 220 mm
+Front tyre	110/70-17M/C 54H (Tubeless)
+Rear tyre	140/70-17M/C 66H (Tubeless)
+Dimensions
+Overall length	2,090 mm
+Overall width	720 mm
+Overall height	1,135 mm
+Seat height	780 mm
+Wheel base	1,380 mm
+Minimum ground clearance	160 mm
+Wet weight (including full oil and fuel tank)	169 kg
+Fuel tank capacity	14.0 L
+Oil tank capacity	2.4 L

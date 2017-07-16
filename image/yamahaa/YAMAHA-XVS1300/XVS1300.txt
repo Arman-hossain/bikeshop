@@ -1,0 +1,36 @@
+Engine type	liquid-cooled, 4-stroke, 4-valves, V-type 2-cylinder, OHC
+Displacement	1,304cc
+Bore x stroke	100.0 mm x 83.0 mm
+Compression ratio	9.5 : 1
+Maximum power	53.5 kW (72.7PS) @ 5,500 rpm
+Limited power version	kW (PS) @ rpm
+Maximum torque	103.0 Nm (10.5 kg-m) @ 3,000 rpm
+Lubrication system	Wet sump
+Clutch type	Wet, Multiple Disc
+Fuel system	Fuel Injection
+Ignition system	TCI
+Starter system	Electric
+Transmission system	Constant Mesh, 5-speed
+Final transmission	Belt
+Chassis
+Frame	double cradle
+Front suspension system	Telescopic forks, Ø 41 mm
+Front travel	135 mm
+Caster angle	34º
+Trail	109 mm
+Rear suspension system	Swingarm
+Rear travel	100 mm
+Front brake	Hydraulic Disk, Ø 320 mm
+Rear brake	Hydraulic single disc, Ø 310 mm
+Front tyre	120/70-21M/C 62H (Tubeless)
+Rear tyre	210/40R18M/C 73H (Tubeless)
+Dimensions
+Overall length	2,535 mm
+Overall width	860 mm
+Overall height	1,130 mm
+Seat height	670 mm
+Wheel base	1,755 mm
+Minimum ground clearance	150 mm
+Wet weight (including full oil and fuel tank)	293 kg
+Fuel tank capacity	15 litres
+Oil tank capacity	3.7 litres
