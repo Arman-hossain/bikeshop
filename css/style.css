@@ -19,6 +19,9 @@ body{
     color: #959595;
     margin: 0;
 }
+.nav{
+    margin-bottom:0;
+}
 .dec{
     font-size: 150%;
     line-height: 2em;
