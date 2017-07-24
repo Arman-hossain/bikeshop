@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Home</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="images/favicon .ico" rel="icon" type="image/x-icon" />
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/footer.css">
+    </head>
+    <body>
+		<div class="container-fluid">
+			<nav class="navbar navbar-inverse active" id="nav-top">
+				<div class="container">  
+					<div class="navbar-header">
+						<button class="navbar-toggle" data-toggle="collapse" data-target="#cllasps">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+					<a class="navbar-brand" href="index.html">REDEX</a>
+					<div class="collapse navbar-collapse" id="cllasps">
+						<ul class="nav navbar-nav"> 
+							<li><a href="index.html"><span class="glyphicon glyphicon-home"></span> HOME</a></li>
+							<li class="dropdown"><a href="abici.html" class="dropdown-toggle" data-toggle="dropdown">BYCYCLES <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="abici.html">ABICI-ITALY</a></li>
+									<li><a href="#">CUBE</a></li>
+									<li><a href="#">BUDNITZ</a></li>
+								</ul>
+							</li>
+							<li><a href="accessories.html">ACCESSORIES</a></li>
+							<li><a href="component.html">COMPONENTS</a></li>
+						</ul>
+
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="cart.html"><span class="glyphicon glyphicon-shopping-cart"></span>&nbsp;Cart </a></li>
+							<li><a href="#" data-toggle="modal" data-target="#Modal_login">
+									<span class="glyphicon glyphicon-lock"></span>&nbsp;Log In 
+								</a>
+							</li>
+							<li><a href="#" data-toggle="modal" data-target="#modal_signup"><span class="glyphicon glyphicon-user"></span>&nbsp;Sign Up</a></li>
+
+						</ul>
+
+					</div>
+				</div>
+			</nav>
+		</div>
+        <!--Login Modal Start here-->
+        <div id="Modal_login" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title text-center">
+                            Login
+                        </h4>
+                    </div>
+                    <div class="modal-body">
+                        <h4 class="text-center">Enter your Email address & Password</h4>
+                        <hr/>
+                        <form role="form" class="form-horizontal" action="" method="post">
+                            <div class="form-group">
+                                <label class="control-label col-md-3" for="email">Email Address</label>
+                                <div class="col-md-9">
+                                    <input type="email" name="email_address" class="form-control" required id="email">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-md-3" for="pass">Password</label>
+                                <div class="col-md-9">
+                                    <input type="password" name="password" class="form-control" required id="pass">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-offset-3 col-md-9">
+                                    <input type="submit" name="btn" value="Login" class="btn btn-primary btn-block">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Login Modal End here-->
+
+        <!-- Sign up modal start here-->
+        <div id="modal_signup" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title text-center">
+                            Sign Up Here
+                        </h3>
+                    </div>
+                    <div class="modal-body">
+                        <h4 class="text-center">Fill-up this Registration form</h4>
+                        <hr/>
+                        <form role="form" class="form-horizontal" action="" method="post">
+                            <div class="form-group">
+                                <label class="control-label col-md-3" for="f_name">Enter Your First Name</label>
+                                <div class="col-md-9">
+                                    <input type="text" name="first_name" required class="form-control" id="f_name">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-md-3" for="l_name">Enter Your Last Name</label>
+                                <div class="col-md-9">
+                                    <input type="text" name="last_name" required class="form-control" id="l_name">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-md-3" for="email_two">Enter Your Email Address</label>
+                                <div class="col-md-9">
+                                    <input type="email" name="email_address" required class="form-control" id="email_two">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-md-3" for="pass_two">Enter Password</label>
+                                <div class="col-md-9">
+                                    <input type="password" name="password" required class="form-control" id="pass_two">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-md-3" for="address">Enter your Address</label>
+                                <div class="col-md-9">
+                                    <textarea class="form-control" name="address" id="address"></textarea>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-md-3" for="phone_number">Enter Your Phone Number</label>
+                                <div class="col-md-9">
+                                    <input type="number" name="phone_number" required class="form-control" id="phone_number">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-md-3" for="image">Choose An Image</label>
+                                <div class="col-md-9">
+                                    <input type="file" name="image" class="form-control" id="image">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-md-3">Gender</label>
+                                <div class="col-md-9 radio">
+                                    <label><input type="radio" name="gender" value="male">Male</label>
+                                    <label><input type="radio" name="gender" value="female">Female</label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-md-3" for="country">District</label>
+                                <div class="col-md-9">
+                                    <select class="form-control" name="country" id="country">
+                                        <option>---Select Your District---</option>
+                                        <option value="DH">Dhaka</option>
+                                        <option value="CH">Chandpur</option>
+                                        <option value="CO">Comilla</option>
+                                        <option value="CHI">Chittagong</option>
+                                        <option value="SY">Sylhet</option>
+                                        <option value="KHA">Khagrachori</option>
+                                        <option value="MUN">Munshiganj</option>
+                                        <option value="KERA">KeraniGanj</option>
+                                        <option value="KUA">Kuakata</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-offset-3 col-md-9">
+                                    <input type="submit" name="btn" value="Registration" class="btn btn-primary btn-block">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Sign up modal end here-->
+
+
+        <!--cart starting here-->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row bg-info">
+                        <div class="col-md-4" style="margin-top: 10px;">
+                            <div class="thumbnail">
+                                <img src="images/featured_products/femto-front_light.jpg" alt="img" style="width: 200px; height: 250px">
+                            </div>
+                        </div>
+                        <div class="col-md-4" style="margin-top: 15px;">
+                            <div class="list-group">
+                                <a href="#" class="list-group-item" style="text-align: center;"><h4>Product Name:</h4>Leather chainlock</a>
+                                <a href="#" class="list-group-item" style="text-align: center;">TK.8000</a>
+                                <a href="#" class="list-group-item" style="text-align: center;"><h4>Product Color :</h4>Red</a>
+                                <a href="#" class="list-group-item" style="text-align: center;"><h4>Product Details</h4></a>
+                            </div>
+                        </div>
+                        <div class="col-md-4" style="margin-top: 10px;">
+                            <div class="row" style="margin-top: 100px;">
+                                <div class="col-md-12">
+                                    <ul class="list-inline">
+                                        <li><input type="number" value="1" name="quantity" style="width: 40px;"></li>
+                                        <li class="bg-primary">Total Price: TK.8000</li>
+                                        <li ><a href="#"><span class="glyphicon glyphicon-edit btn btn-primary"></span></a></li>
+                                        <li ><a href="#"><span class="glyphicon glyphicon-trash btn btn-danger"></span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br/>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row bg-info">
+                        <div class="col-md-4" style="margin-top: 10px;">
+                            <div class="thumbnail">
+                                <img src="images/featured_products/../featured_products/femto-rear.jpg" alt="img" style="width: 200px; height: 250px">
+                            </div>
+                        </div>
+                        <div class="col-md-4" style="margin-top: 15px;">
+                            <div class="list-group">
+                                <a href="#" class="list-group-item" style="text-align: center;"><h4>Product Name:</h4>Leather chainlock</a>
+                                <a href="#" class="list-group-item" style="text-align: center;">TK.8000</a>
+                                <a href="#" class="list-group-item" style="text-align: center;"><h4>Product Color :</h4>Red</a>
+                                <a href="#" class="list-group-item" style="text-align: center;"><h4>Product Details</h4></a>
+                            </div>
+                        </div>
+                        <div class="col-md-4" style="margin-top: 10px;">
+                            <div class="row" style="margin-top: 100px;">
+                                <div class="col-md-12">
+                                    <ul class="list-inline">
+                                        <li><input type="number" value="1" name="quantity" style="width: 40px;"></li>
+                                        <li class="bg-primary">Total Price: TK.8000</li>
+                                        <li ><a href="#"><span class="glyphicon glyphicon-edit btn btn-primary"></span></a></li>
+                                        <li ><a href="#"><span class="glyphicon glyphicon-trash btn btn-danger"></span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br/>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row bg-info">
+                        <div class="col-md-4" style="margin-top: 10px;">
+                            <div class="thumbnail">
+                                <img src="images/featured_products/../featured_products/cross_race_honeycomb.jpg" alt="img" style="width: 200px; height: 250px">
+                            </div>
+                        </div>
+                        <div class="col-md-4" style="margin-top: 15px;">
+                            <div class="list-group">
+                                <a href="#" class="list-group-item" style="text-align: center;"><h4>Product Name:</h4>CROSS RACE PRO HONEYCOMB</a>
+                                <a href="#" class="list-group-item" style="text-align: center;">TK.207000</a>
+                                <a href="#" class="list-group-item" style="text-align: center;"><h4>Product Color :</h4>Red</a>
+                                <a href="#" class="list-group-item" style="text-align: center;"><h4>Product Details</h4></a>
+                            </div>
+                        </div>
+                        <div class="col-md-4" style="margin-top: 10px;">
+                            <div class="row" style="margin-top: 100px;">
+                                <div class="col-md-12">
+                                    <ul class="list-inline">
+                                        <li><input type="number" value="1" name="quantity" style="width: 40px;"></li>
+                                        <li class="bg-primary">Total Price: TK.8000</li>
+                                        <li ><a href="#"><span class="glyphicon glyphicon-edit btn btn-primary"></span></a></li>
+                                        <li ><a href="#"><span class="glyphicon glyphicon-trash btn btn-danger"></span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br/>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row bg-info">
+                        <div class="col-md-4" style="margin-top: 10px;">
+                            <div class="thumbnail">
+                                <img src="images/featured_products/../featured_products/kisswoman1speed.jpg" alt="img" style="width: 200px; height: 250px">
+                            </div>
+                        </div>
+                        <div class="col-md-4" style="margin-top: 15px;">
+                            <div class="list-group">
+                                <a href="#" class="list-group-item" style="text-align: center;"><h4>Product Name:</h4>Kiss Woman 1 Speed</a>
+                                <a href="#" class="list-group-item" style="text-align: center;">TK.36000</a>
+                                <a href="#" class="list-group-item" style="text-align: center;"><h4>Product Color :</h4>Silver</a>
+                                <a href="#" class="list-group-item" style="text-align: center;"><h4>Product Details</h4></a>
+                            </div>
+                        </div>
+                        <div class="col-md-4" style="margin-top: 10px;">
+                            <div class="row" style="margin-top: 100px;">
+                                <div class="col-md-12">
+                                    <ul class="list-inline">
+                                        <li><input type="number" value="1" name="quantity" style="width: 40px;"></li>
+                                        <li class="bg-primary">Total Price: TK.8000</li>
+                                        <li ><a href="#"><span class="glyphicon glyphicon-edit btn btn-primary"></span></a></li>
+                                        <li ><a href="#"><span class="glyphicon glyphicon-trash btn btn-danger"></span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <ul  class="list-inline pull-right">
+                        <li><a href="#" class="btn btn-primary"><span class="glyphicon glyphicon-repeat"></span>&nbsp;UPDATE</a></li>
+                        <li><a href="#" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span>&nbsp;CHECKOUT</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+        <!--cart ending-->
+
+        <!--related product-->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 style="font-weight: 700;color: green;">Related Product</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="thumbnail">
+                            <img src="images/featured_products/kiss3speed.jpg" alt="f_img">
+                            <hr/>
+                            <div class="caption">  
+                                <h4 class="pull-right">TK.45000</h4>
+                                <h4><a href="#">Kiss 3 Speed ​​Man</a></h4><br/>
+                                <a href="#" class=" btn btn-primary">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="thumbnail">
+                            <img src="images/featured_products/femto-front_light.jpg" alt="f_img">
+                            <hr/>
+                            <div class="caption">
+                                <h4 class="pull-right">TK.8000</h4>
+                                <h4><a href="#">Femto front light</a></h4><br/>
+                                <a href="#" class="btn btn-primary">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="thumbnail">
+                            <img src="images/featured_products/bostonwaveTE616.jpg" alt="f_img">
+                            <hr/>
+                            <div class="caption">
+                                <h4 class="pull-right">TK.27000</h4>
+                                <h4><a href="#">BOSTON WAVE TE616</a></h4><br/>
+                                <a href="#" class="btn btn-primary">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="thumbnail">
+                            <img src="images/featured_products/bh_junior_alloy Spike.jpg" alt="f_img">
+                            <hr/>
+                            <div class="caption">
+                                <h4 class="pull-right">TK.27000</h4>
+                                <h4><a href="#">JUNIOR ALLOY SPIKE</a></h4><br/>
+                                <a href="#" class="btn btn-primary">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <!--footer option goes here-->
+        <div class="container-fluid">
+            <footer class="footer-d">
+
+                <div class="footer-left">
+
+                    <h3><span>REDEX</span></h3>
+
+                    <p class="footer-links">
+                        <a href="index.html">Home</a>
+                        ·
+                        <a href="#">Blog</a>
+                        ·
+                        <a href="about.html">About</a>
+                        ·
+                        <a href="#">Faq</a>
+                        ·
+                        <a href="contact.html">Contact</a>
+                    </p>
+
+                    <p class="footer-company-name">REDEX &copy; 2016</p>
+                </div>
+
+                <div class="footer-center">
+
+                    <div>
+                        <i class="fa fa-map-marker"></i>
+                        <p><span>North Kamalapur</span>Dhaka,Bangladesh</p>
+                    </div>
+
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <p>+8801780240278</p>
+                    </div>
+
+                    <div>
+                        <i class="fa fa-envelope"></i>
+                        <p><a href="redexw@gmail.com">Email Contact</a></p>
+                    </div>
+
+                </div>
+
+                <div class="footer-right">
+
+                    <p class="footer-company-about">
+                        <span>About the company</span>
+                        Our company mainly build up for raising up cycling in our country. And here you will find most of famous brand in the world.
+                    </p>
+
+                    <div class="footer-icons">
+
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-github"></i></a>
+
+                    </div>
+
+                </div>
+
+            </footer>
+        </div>
+
+
+
+        <script src="js/ajaxjs.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
